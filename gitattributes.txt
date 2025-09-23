@@ -1,2 +1,50 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# ===================================
+# Git Ignore for Finance Management System (Python + Tkinter + SQLite)
+# ===================================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# SQLite database files (local data, don’t push)
+finance.db
+*.sqlite
+*.sqlite3
+*.db
+
+# CSV reports (generated exports)
+*.csv
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks checkpoints (if ever used)
+.ipynb_checkpoints/
+
+# Backup / temp files
+*.bak
+*.swp
+*.tmp
+
+# Packaging (future distribution / PyInstaller / setuptools)
+build/
+dist/
+*.egg-info/
+*.spec
