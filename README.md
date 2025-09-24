@@ -89,9 +89,7 @@ RQ4: How to make audit processes faster?
    - Bar Chart (Income vs Expense)
    - Pie Chart (Expense Distribution)
 
-![Finance_management_dashboard]("E:\projects\Finance Management System\images\company_finance_Dashboard.png")
-![Login_page_dashboard]("E:\projects\Finance Management System\images\login page.png.png")
-![Analytics_dashboard]("E:\projects\Finance Management System\images\Bar_plot_analytics.png.png")
+![Finance_management_dashboard](E:\projects\Finance Management System\images\company_finance_Dashboard.png)
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
