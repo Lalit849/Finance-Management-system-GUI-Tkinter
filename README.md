@@ -1,30 +1,108 @@
-📌 Project Summary
-    -A Finance Management System built with Python (Tkinter + SQLite) that helps users manage company-level incomes, expenses, balances, and analyze them with charts.
+# 🧾 Finance-Management-System-built-with-Python(Tkinter + SQLite)
 
-🔎 Overview
-    -This desktop app allows multiple users to register/login, add companies, record transactions, export reports, and visualize financial data using interactive analytics.
+A Finance Management System built with Python (Tkinter + SQLite) that helps users manage company-level incomes, expenses, balances, and analyze them with charts.
+---
 
-❓ Problem Statement
-    -Many small businesses and individuals lack a simple desktop tool to track incomes & expenses across multiple companies, audit balances, and analyze financial health without needing advanced accounting            software.
- 
-🛠 Tools & Technologies
-  -Python – Core programming language
-  -Tkinter – GUI framework
-  -SQLite3 – Lightweight database
-  -Matplotlib – Data visualization (bar & pie charts)
-  -PIL (Pillow) – Image handling (backgrounds/icons)
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
+- <a href="#dashboard">Dashboard</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#final-recommendations">Final Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
+---
 
-⚙️ Methods / Approach
-   -User Authentication – Secure login & signup with SHA-256 password hashing.
-   -Company Management – Add, delete, and manage multiple companies per user.
-   -Transaction Tracking – Record incomes & expenses, auto-update balances.
-   -Audit Feature – Recalculate balances and detect profit/loss.
-   -Analytics – Bar & Pie charts to visualize financial data.
-   -Report Export – Save company-wise data as CSV.
+<h2><a class="anchor" id="overview"></a>Overview</h2>
 
-🔑 Key Insights
-   -Provides user-specific dashboards (multi-user support).
-   -Shows real-time updates in tables after transactions.
-   -Profit/Loss auditing helps quickly analyze financial health.
-   -Simple CSV export allows external sharing and reporting.
-   -Visual charts make finance insights easy to understand.
+This desktop app allows multiple users to register/login, add companies, record transactions, export reports, and visualize financial data using interactive analytics.
+---
+
+<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+
+Managing multiple companies’ financial transactions manually leads to errors, lack of insights, and difficulty in auditing. Business owners require a centralized platform to:
+ - Securely maintain company-wise income, expenses, and balance records.
+ - Get real-time financial analytics for decision making.
+ - Automate audits and reporting without relying on external software.
+ - This system solves the problem by providing a desktop application with secure  authentication, data persistence, and interactive analytics.
+---
+
+<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+
+- Programming Language: Python 3.x
+- GUI Framework: Tkinter
+- Database: SQLite
+- Visualization: Matplotlib
+- Libraries:
+    - hashlib → Password hashing
+    - sqlite3 → Database connection
+    - ttk (Tkinter themed widgets)
+    - PIL (Pillow) → Image handling
+    - csv → Export reports
+---
+
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
+FinanceManagementSystem/
+│
+├── finance.db              # SQLite Database (auto-created)
+├── main.py                 # Main application (your code)
+├── requirements.txt        # Dependencies list
+├── README.md               # Project documentation
+├── screenshots/            # App screenshots
+│   ├── login.png
+│   ├── dashboard.png
+│   └── analytics.png
+└── exports/                # CSV reports (user-generated)
+
+```
+---
+<h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
+
+RQ1: How can small businesses efficiently manage company-wise income and expenses?
+    ✅ Finding: Automating entry and balance updates reduces manual errors.
+
+RQ2: How to provide meaningful insights for decision making?
+    ✅ Finding: Bar charts (Income vs Expense) help compare companies.
+    ✅ Finding: Pie charts (Expense distribution) reveal cost-heavy companies.
+
+RQ3: How to ensure security of financial data?
+    ✅ Finding: Passwords stored with SHA-256 hashing protect user credentials.
+
+RQ4: How to make audit processes faster?
+    ✅ Finding: Instant audit functionality recomputes balances and shows profit/loss status.
+
+---
+<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
+
+- Login / Signup / Forgot Password → Secure authentication.
+- Dashboard
+   - Add / Delete Companies
+   - Add Income & Expense transactions
+   - Automatic Balance calculation
+   - Audit button for profit/loss report
+   - Export CSV reports
+   - Analytics
+   - Bar Chart (Income vs Expense)
+   - Pie Chart (Expense Distribution)
+
+![Vendor Performance Dashboard](images\company_finance_Dashboard.png)
+
+---
+<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
+
+- Deploy an admin panel for multi-user monitoring.
+- Add forecasting (ML models) to predict future cash flow.
+- Enhance with role-based access control for larger teams.
+- Integrate PDF report generation along with CSV.
+- Cloud migration (PostgreSQL + Flask/Django backend) for enterpris
+
+---
+<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
+
+**Lalit Dhakar**  
+📧 Email:lalitdhakar689@gmail.com
+🔗 [LinkedIn](www.linkedin.com/in/lalit-dhakar-378101335)  
