@@ -103,6 +103,7 @@ RQ4: How to make audit processes faster?
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Lalit Dhakar**  
+**Lalit Dhakar** 
+Student
 📧 Email:lalitdhakar689@gmail.com
-🔗 [LinkedIn](www.linkedin.com/in/lalit-dhakar-378101335)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lalit-dhakar-378101335/)  
