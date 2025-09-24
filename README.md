@@ -89,8 +89,8 @@ RQ4: How to make audit processes faster?
    - Bar Chart (Income vs Expense)
    - Pie Chart (Expense Distribution)
 
-![Finance_management_dashboard](https://github.com/Lalit849/Finance-Management-system-GUI-Tkinter/issues/1#issue-3450363954)
-![login page dashboard]()
+![Finance_management,login and analytics dashboards](https://github.com/Lalit849/Finance-Management-system-GUI-Tkinter/issues/1#issue-3450363954)
+
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
